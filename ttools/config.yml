@@ -46,6 +46,21 @@ Menu:
     Item2:
       Title: Deploy
       Command: "ttools/githelpers/local/git-pull-remote.sh Demo"
-
+  Heading4:
+    Title: Sync
+    Item1:
+      Title: Local to Test
+      Command: "ttools/sitesync-core/local/sync-environments.sh Local Test"
+    Item2:
+      Title: Test to Local
+      Command: "ttools/sitesync-core/local/sync-environments.sh Test Local"
+    Item3:
+      Title: Test to Demo
+      Command: "ttools/sitesync-core/local/sync-environments.sh Test Demo"
+    Item4:
+      Title: Demo to Test
+      Command: "ttools/sitesync-core/local/sync-environments.sh Test Demo"
+Sitesync:
+  FrameworkModule: 'ttools/sitesync-simple'
 
 
