@@ -1,0 +1,45 @@
+
+##############################################################
+# Terminal Tools Configuration for "Ttools Test"
+# Add environments under "Environments"
+# Adjust the menu under "Menu" to your needs
+##############################################################
+Projectname: "ttools-test"
+Environments:
+  Test:
+    Host: "test.title.dk"
+    Sshuser: "serverpilot"
+    Repodir: "/srv/users/serverpilot/apps/ttools-test"
+    #additional settings
+    Sshport: ""
+    Composerpath: "/srv/users/serverpilot/composer.phar"
+    #see here: https://serverpilot.io/community/articles/how-to-use-the-php-cli.html
+    PhpPath: "php5.6-sp"
+  Demo:
+    Host: "demo.title.dk"
+    Sshuser: "serverpilot"
+    Repodir: "/srv/users/serverpilot/apps/ttools-test"
+    #additional settings
+    Sshport: ""
+    Composerpath: "/srv/users/serverpilot/composer.phar"
+    #see here: https://serverpilot.io/community/articles/how-to-use-the-php-cli.html
+    PhpPath: "php5.6-sp"
+Menu:
+  Heading1:
+    Title: Local
+    Item1:
+      Title: Test
+      Command: ""
+  Heading2:
+    Title: Test
+    Item1:
+      Title: SSH
+      Command: "ttools/core/local/ssh.sh Test"
+  Heading3:
+    Title: Demo
+    Item1:
+      Title: SSH
+      Command: "ttools/core/local/ssh.sh Demo"
+
+
+

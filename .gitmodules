@@ -1,0 +1,9 @@
+[submodule "ttools/core"]
+	path = ttools/core
+	url = git://github.com/titledk/ttools-core.git
+[submodule "ttools/githelpers"]
+	path = ttools/githelpers
+	url = https://github.com/titledk/ttools-githelpers.git
+[submodule "ttools/sitesync-core"]
+	path = ttools/sitesync-core
+	url = https://github.com/titledk/ttools-sitesync-core.git
