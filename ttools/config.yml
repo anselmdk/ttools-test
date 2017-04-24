@@ -35,11 +35,17 @@ Menu:
     Item1:
       Title: SSH
       Command: "ttools/core/local/ssh.sh Test"
+    Item2:
+      Title: Deploy
+      Command: "ttools/githelpers/local/git-pull-remote.sh Test"
   Heading3:
     Title: Demo
     Item1:
       Title: SSH
       Command: "ttools/core/local/ssh.sh Demo"
+    Item2:
+      Title: Deploy
+      Command: "ttools/githelpers/local/git-pull-remote.sh Demo"
 
 
 
